@@ -1,0 +1,78 @@
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display:inline;
+    margin-right:20px;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color:snow;
+    border: 5px dashed steelblue;
+    text-align: center;
+    margin-left: 38%;
+}
+.container h1 {
+  text-align: center;
+
+}
+img {
+    float: right;
+    margin-right: 0%;
+    border: 5px dotted snow;
+}
+.hometext {
+    font-size:15px;
+    margin-left: 5%;
+}
+div.gallery {
+    border: 1px solid #ccc;
+    background-color: snow;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid steelblue;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 325px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: right;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
